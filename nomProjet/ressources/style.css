@@ -1,0 +1,16 @@
+.label {
+    -fx-font-size: 11pt;
+    -fx-font-family:"Arial Black";
+}
+
+.button {
+    -fx-background-color: "aliceblue";
+    -fx-text-fill: "black";
+    -fx-font-family:"Arial";
+    -fx-background-radius: 5px;
+}
+
+.button:hover{
+    -fx-cursor: "hand";
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+}

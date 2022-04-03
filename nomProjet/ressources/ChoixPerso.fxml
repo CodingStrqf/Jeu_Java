@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ChoixPerso">
+   <children>
+      <ImageView fitHeight="1000.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/choix.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eaeaea" height="254.0" layoutX="110.0" layoutY="131.0" stroke="BLACK" strokeType="INSIDE" width="380.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="55.0" layoutX="296.0" layoutY="24.0" stroke="BLACK" strokeType="INSIDE" width="400.0" />
+      <Label layoutX="310.0" layoutY="40.0" text="Ajouter un pseudo :" />
+      <TextField fx:id="pseudo" layoutX="480.0" layoutY="38.0" />
+      <Button layoutX="890.0" layoutY="27.0" mnemonicParsing="false" onAction="#retour" prefHeight="30.0" prefWidth="72.0" text="Retour" />
+      <Label fx:id="description" layoutX="140.0" layoutY="164.0"/>
+      <ImageView fx:id="imagePerso" fitHeight="212.0" fitWidth="309.0" layoutX="582.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="Bchimiste" layoutX="537.0" layoutY="440.0" mnemonicParsing="false" onAction="#chimiste" prefHeight="50.0" prefWidth="90.0" text="Chimiste" />
+      <Button fx:id="Bmagicien" layoutX="320.0" layoutY="440.0" mnemonicParsing="false" onAction="#magicien" prefHeight="50.0" prefWidth="90.0" text="Magicien" />
+      <Button fx:id="Bpaladin" layoutX="117.0" layoutY="440.0" mnemonicParsing="false" onAction="#paladin" prefHeight="50.0" prefWidth="90.0" text="Paladin" />
+      <Button fx:id="Bvoleur" layoutX="759.0" layoutY="440.0" mnemonicParsing="false" onAction="#voleur" prefHeight="50.0" prefWidth="90.0" text="Voleur" />
+      <Button fx:id="Bvalider" layoutX="411.0" layoutY="515.0" mnemonicParsing="false" onAction="#valider" prefHeight="55.0" prefWidth="126.0" text="Valider le choix" />
+   </children>
+</AnchorPane>

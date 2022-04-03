@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ChoixNiveau">
+   <children>
+      <ImageView fitHeight="1050.0" fitWidth="1050.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/niveau.jpg" />
+         </image></ImageView>
+      <Button fx:id="Bniv1" layoutX="435.0" layoutY="110.0" mnemonicParsing="false" onAction="#niv1" prefHeight="50.0" prefWidth="180.0" text="Niveau 1" />
+      <Button fx:id="Bniv2" disable="true" layoutX="435.0" layoutY="195.0" mnemonicParsing="false" onAction="#niv2" prefHeight="50.0" prefWidth="180.0" text="Niveau 2" />
+      <Button fx:id="Bniv3" disable="true" layoutX="435.0" layoutY="270.0" mnemonicParsing="false" onAction="#niv3" prefHeight="50.0" prefWidth="180.0" text="Niveau 3" />
+      <Button prefHeight="50.0" prefWidth="180.0" layoutX="435" layoutY="350" text="Sauvegarde" onAction="#btnSave"/>
+      <Button fx:id="BmenuPrincipale" layoutX="446.0" layoutY="450.0" mnemonicParsing="false" onAction="#menuPrincipale" prefHeight="50.0" prefWidth="155.0" text="Menu principale" />
+      <TextField fx:id="Pseudo" layoutX="62.0" layoutY="49.0" />
+
+   </children>
+</AnchorPane>
